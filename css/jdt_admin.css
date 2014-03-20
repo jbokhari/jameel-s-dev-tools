@@ -1,0 +1,88 @@
+.jdt-one-col {
+    width: 5.801104972%;
+}
+/* 4.85%;  } /* grid_1  */
+.jdt-two-col {
+  width: 14.364640883%;
+}
+/* 13.45%; } /* grid_2  */
+.jdt-three-col {
+  width: 22.928176794%;
+}
+/* 22.05%; } /* grid_3  */
+.jdt-four-col {
+  width: 31.491712705%;
+}
+/* 30.75%; } /* grid_4  */
+.jdt-five-col {
+  width: 40.055248616%;
+}
+/* 39.45%; } /* grid_5  */
+.jdt-six-col {
+  width: 48.618784527%;
+}
+/* 48%;    } /* grid_6  */
+.jdt-seven-col {
+  width: 57.182320438000005%;
+}
+/* 56.75%; } /* grid_7  */
+.jdt-eight-col {
+  width: 65.74585634900001%;
+}
+/* 65.4%;  } /* grid_8  */
+.jdt-nine-col {
+  width: 74.30939226%;
+}
+/* 74.05%; } /* grid_9  */
+.jdt-ten-col {
+  width: 82.87292817100001%;
+}
+/* 82.7%;  } /* grid_10 */
+.jdt-eleven-col {
+  width: 91.436464082%;
+}
+/* 91.35%; } /* grid_11 */
+.jdt-twelve-col {
+  width: 99.999999993%;
+}
+/* 100%;   } /* grid_12 */
+.jdt-one-col,.jdt-two-col,.jdt-three-col,.jdt-four-col,.jdt-five-col,.jdt-six-col,.jdt-seven-col,.jdt-eight-col,.jdt-nine-col,.jdt-ten-col,.jdt-eleven-col,.jdt-twelve-col {
+  position: relative;
+  float: left;
+  margin-left: 2.762430939%;
+}
+.first {
+  margin-left: 0;
+}
+.last {
+  float: right;
+}
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.jdt-column-wrapper:before,
+.jdt-column-wrapper:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.jdt-column-wrapper:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.jdt-column-wrapper {
+    margin: .2em 0;
+    overflow:hidden;
+    *zoom: 1;
+}
+.jdt-admin-wrap { max-width: 700px;}
